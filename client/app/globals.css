@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #0a0a0a;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto Mono', sans-serif;
+}
+
+/* Gold accent animations */
+@keyframes fadeInGold {
+  from {
+    opacity: 0;
+    color: #fff;
+  }
+  to {
+    opacity: 1;
+    color: #d4af37;
+  }
+}
+
+.text-gold-hover:hover {
+  @apply text-gold transition-colors duration-300;
+}
+
+.border-gold-hover:hover {
+  @apply border-gold transition-colors duration-300;
+}
+
+.bg-dark-card {
+  @apply bg-[#1a1a1a] border border-[#2a2a2a];
+}
+
+.btn-primary {
+  @apply bg-gold text-black px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-all duration-300;
+}
+
+.btn-secondary {
+  @apply bg-[#1a1a1a] border border-gold text-gold px-6 py-2 rounded-lg font-semibold hover:bg-gold hover:text-black transition-all duration-300;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4af37;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e5c158;
+}
