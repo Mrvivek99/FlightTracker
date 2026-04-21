@@ -1,46 +1,25 @@
-# ✈️ Filght - AI-Powered Flight Price Tracker
+✈️ Filght — AI-Powered Flight Price Tracker
 
-Welcome to **Filght** — an intelligent, full-stack flight booking and price tracking application. It features a powerful, built-in AI assistant capable of processing human language to find the cheapest flights, compare airlines, and set price alerts.
+Filght is a modern, full-stack flight booking and price tracking application powered by AI. It enables users to search flights using natural language, compare airlines, and track fare trends — all through an intelligent conversational assistant.
 
-## 🌟 Key Features
+Designed with scalability and simplicity in mind, Filght combines serverless architecture with cutting-edge AI to deliver a fast, reliable, and seamless travel planning experience.
 
-* **🤖 Intelligent AI Chatbot (`SkyBot`)**: Understands conversational intent (e.g., *"Find cheapest flights from Delhi to Dubai next week"*).
-* **🧠 Multi-Model AI Fallbacks**: Built-in redundancy using a waterfall routing system through **Cerebras** (llama3.1), **OpenAI** (ChatGPT), and **Google Gemini**, ensuring the bot is never down.
-* **⚡ Serverless Architecture**: Entirely rebuilt using **Next.js App Router API Routes**, meaning zero backend maintenance, databases, or Render.com setups are needed for the chatbot.
-* **📱 Beautiful UI**: Built with responsive modern design (TailwindCSS), Markdown rendering in the chat, glassmorphic styling, and fluid Framer Motion animations.
-* **📉 Deal Tracking Hueristics**: SkyBot analyzes date, times, and historical rules to natively tag flights as 💚 Low, 🟡 Average, or 🔴 High.
+🌟 Features
+🤖 AI Chatbot (SkyBot) — Understands natural queries like “cheapest flights from Delhi to Dubai next week”
+🧠 Multi-Model AI Fallbacks — Uses Cerebras (LLaMA 3.1), OpenAI (ChatGPT), and Google Gemini for maximum uptime
+⚡ Serverless Backend — Built entirely with Next.js App Router APIs (no traditional backend needed)
+📱 Modern UI/UX — Tailwind CSS, glassmorphism, Markdown chat, and smooth Framer Motion animations
+📉 Smart Price Insights — Tags flights as 💚 Low, 🟡 Average, 🔴 High using intelligent heuristics
+🔔 Price Tracking (Planned) — Monitor routes and get alerts when prices drop
+🌍 Vercel-Ready Deployment — Instant global deployment with edge functions
+☁️ Deployment
+Import repo into Vercel
+Set root directory → client
+Add environment variables
+Click Deploy
+👨‍💻 Team
+Diwanshu
+Vivek
+💡 Vision
 
-## 🚀 Quick Start (Local Development)
-
-### 1. Clone & Install
-```bash
-git clone https://github.com/Mrvivek99/FlightTracker.git
-cd FlightTracker/client
-npm install
-```
-
-### 2. Environment Variables
-Create a `.env.local` file inside the `client` directory:
-```env
-# Add whichever API keys you want to use. The app automatically routes to the first available one!
-CEREBRAS_API_KEY=your_cerebras_key_here
-OPENAI_API_KEY=your_openai_key_here
-GEMINI_API_KEY=your_gemini_key_here
-```
-
-### 3. Run the App
-```bash
-npm run dev
-```
-Open **[http://localhost:3000](http://localhost:3000)** in your browser! Click the Chat ✈️ bubble in the corner to start interacting with the AI.
-
-## ☁️ Deployment (Vercel)
-
-This project is tailored specifically for instant deployment on Vercel:
-1. Import this repository in your Vercel Dashboard.
-2. In the "Root Directory" option, you can choose `client` (or simply select Next.js framework).
-3. Add your `CEREBRAS_API_KEY` (or other AI keys) in the **Environment Variables** section.
-4. Click Deploy. The AI endpoints run perfectly on Vercel's serverless edge.
-
----
-*Built with Next.js, Tailwind CSS, TanStack Query, and AI SDKs.*
+Filght aims to make flight booking smarter, faster, and conversational — removing friction from travel planning through AI-driven insights and intuitive design.
