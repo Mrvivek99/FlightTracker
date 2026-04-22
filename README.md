@@ -6,8 +6,8 @@ Designed with scalability and simplicity in mind, Filght combines serverless arc
 
 🌟 Features
 🤖 AI Chatbot (SkyBot) — Understands natural queries like “cheapest flights from Delhi to Dubai next week”
-🧠 Multi-Model AI Fallbacks — Uses Cerebras (LLaMA 3.1), OpenAI (ChatGPT), and Google Gemini for maximum uptime
 ⚡ Serverless Backend — Built entirely with Next.js App Router APIs (no traditional backend needed)
+🧠 Multi-Model AI Fallbacks — Uses Cerebras (LLaMA 3.1), OpenAI (ChatGPT), and Google Gemini for maximum uptime
 📱 Modern UI/UX — Tailwind CSS, glassmorphism, Markdown chat, and smooth Framer Motion animations
 📉 Smart Price Insights — Tags flights as 💚 Low, 🟡 Average, 🔴 High using intelligent heuristics
 🔔 Price Tracking (Planned) — Monitor routes and get alerts when prices drop
